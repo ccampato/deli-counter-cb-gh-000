@@ -1,11 +1,11 @@
 katz_deli = []
 
 def line(a)
-  customers = a.count
+  customers = []
   if customers == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently:"+customers.Times.do"#{a}" 
+    puts "The line is currently:"+a.index+a
   end
 end
 

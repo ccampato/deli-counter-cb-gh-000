@@ -10,5 +10,5 @@ end
 
 def take_a_number(a,name)
   a << name
-  puts "Welcome, #{name}. You are number #{a.index(name)}"
+  puts "Welcome, #{name}. You are number #{a.index(name)+1}"
 end

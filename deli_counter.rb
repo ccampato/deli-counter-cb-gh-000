@@ -4,7 +4,7 @@ def line(a)
   if a.count == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently:"+""
+    puts "The line is currently: #{a.index(name)+1}. #{a}"
   end
 end
 

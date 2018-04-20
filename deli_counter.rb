@@ -1,6 +1,7 @@
 katz_deli = []
 
 def line(a)
+  a.index+1=n
   if a.count == 0
     puts "The line is currently empty."
   else

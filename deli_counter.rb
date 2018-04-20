@@ -1,7 +1,9 @@
 katz_deli = []
 
 def line(a)
-  if a.count == 0
+  str = ""
+  n = 0
+  if n == 0
     puts "The line is currently empty."
   else
     puts "The line is currently: #{a.join(' ')}"

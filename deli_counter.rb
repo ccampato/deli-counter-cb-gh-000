@@ -6,7 +6,7 @@ def line(a)
     puts "The line is currently empty."
   else
     a.each_with_index { |name,index| str += " #{index+1}. #{name}"}
-    puts "The line is currently: #{str}"
+    puts "The line is currently:#{str}"
   end
 end
 

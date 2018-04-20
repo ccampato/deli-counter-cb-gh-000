@@ -5,6 +5,8 @@ def line(a)
     puts "The line is currently empty."
   else
     puts "The line is currently: #{a.index}"
+  end
+end
 
 
 def take_a_number(a,name)

@@ -4,13 +4,8 @@ def line(a)
   if a.length == 0
     puts "The line is currently empty."
   else
-    while a.length > 0
-      a.each_with_index do |name,index|
-        puts "The line is currently: #{index+1}. #{name}"
-      end
-    end
-  end
-end
+    puts "The line is currently: #{a.index}"
+
 
 def take_a_number(a,name)
   a.each_with_index do |name,index|

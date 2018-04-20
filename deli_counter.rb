@@ -1,10 +1,11 @@
 katz_deli = []
 
 def line(a)
+  customers = a.count
   if a.length == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{a.each_index}"
+    puts "The line is currently: #{a.}"
   end
 end
 

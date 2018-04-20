@@ -6,7 +6,8 @@ def line(a)
   if n == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{a.join(' ')}"
+    a.each_with_index { |name,index| str += "#{index}. #{name} "} 
+    puts "The line is currently: #{str}"
   end
 end
 

@@ -15,7 +15,7 @@ def take_a_number(a,name)
   puts "Welcome, #{name}. You are number #{a.index(name)+1} in line."
 end
 
-def now_serving
+def now_serving(a)
   if a.count == 0
     puts "There is nobody waiting to be served!"
   end

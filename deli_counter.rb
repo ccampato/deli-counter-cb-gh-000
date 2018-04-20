@@ -2,11 +2,10 @@ katz_deli = []
 
 def line(a)
   str = ""
-  n = 0
-  if n == 0
+  if a.count == 0
     puts "The line is currently empty."
   else
-    a.each_with_index { |name,index| str += "#{index}. #{name} "} 
+    a.each_with_index { |name,index| str += "#{index}. #{name} "}
     puts "The line is currently: #{str}"
   end
 end

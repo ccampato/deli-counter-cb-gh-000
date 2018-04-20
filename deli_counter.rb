@@ -5,7 +5,7 @@ def line(a)
   if a.count == 0
     puts "The line is currently empty."
   else
-    a.each_with_index { |name,index| str += "#{index}. #{name} "}
+    a.each_with_index { |name,index| str += "#{index+1}. #{name} "}
     puts "The line is currently: #{str}"
   end
 end

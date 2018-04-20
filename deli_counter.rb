@@ -18,5 +18,8 @@ end
 def now_serving(a)
   if a.count == 0
     puts "There is nobody waiting to be served!"
+  else
+    puts "Currently serving #{a[0]}."
+    a.shift
   end
 end

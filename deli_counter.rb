@@ -5,7 +5,7 @@ def line(a)
   if customers == 0
     puts "The line is currently empty."
   else
-    puts "The line is currently: #{a.}"
+    puts "The line is currently:"+"s"
   end
 end
 

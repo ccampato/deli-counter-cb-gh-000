@@ -6,6 +6,8 @@ def line(a)
   else
     a.each_with_index do |namem,index|
       puts "The line is currently: #{index+1}. #{name}"
+    end
+  end
 end
 
 def take_a_number(a,name)

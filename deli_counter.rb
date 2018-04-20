@@ -4,7 +4,7 @@ def line(a)
   if a.length == 0
     puts "The line is currently empty."
   else
-    puts "The line is curently: #{a.each_with_index}"
+    puts "The line is curently: #{a.each_with_index |name,index|}"
   end
 end
 

@@ -1,8 +1,7 @@
 katz_deli = []
 
 def line(a)
-  customers = []
-  if customers == 0
+  if a.count == 0
     puts "The line is currently empty."
   else
     puts "The line is currently:"+a.index+a

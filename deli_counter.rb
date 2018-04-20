@@ -4,8 +4,8 @@ def line(a)
   if a.length == 0
     puts "The line is currently empty."
   else
-    puts "The line is curently: #{a.join}"
-  end
+    a.each_with_index do |namem,index|
+      puts "The line is currently: #{index+1}. #{name}"
 end
 
 def take_a_number(a,name)
